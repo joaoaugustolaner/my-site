@@ -1,0 +1,16 @@
+html,
+body {
+  font-family: Ubuntu;
+  background-color: var(--backgroung-color);
+  --backgroung-color: #FFF;
+  --secondary-color: #FF6150;
+  height: 100%;
+  width: 100%;
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

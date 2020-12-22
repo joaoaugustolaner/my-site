@@ -1,0 +1,33 @@
+
+.logo_container{
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.first_bracket{
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid var(--secondary-color);
+    border-left: 3px solid var(--secondary-color);
+    transform: rotateZ(-45deg);
+}
+
+.title{
+    font-family:  Ubuntu;
+}
+.end{
+    height: 25px;
+    width: 20px;
+    background-color: var(--secondary-color);
+    clip-path: polygon(80% 0, 100% 0%, 50% 100%, 30% 100%);
+}
+.second_bracket{
+    width: 15px;
+    height: 15px;
+    border-top: 3px solid var(--secondary-color);
+    border-right: 3px solid var(--secondary-color);
+    transform: rotateZ(45deg);
+}
